@@ -505,22 +505,12 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 📧 Contact
 
 **Developer**: Riya
 
 - Email: riyarajawat212@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-
-**Project Link**: [https://github.com/yourusername/kitchensathi](https://github.com/yourusername/kitchensathi)
+- LinkedIn: 
 
 ---
 
