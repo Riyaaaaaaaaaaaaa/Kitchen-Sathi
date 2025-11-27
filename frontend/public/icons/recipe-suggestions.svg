@@ -1,0 +1,51 @@
+<!-- KitchenSathi Feature Icons - Recipe Suggestions -->
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Recipe Suggestions Icon -->
+  <g id="recipe-suggestions">
+    <!-- Recipe book -->
+    <rect x="16" y="12" width="24" height="32" rx="2" fill="#FFFFFF"/>
+    <rect x="16" y="12" width="24" height="32" rx="2" fill="none" stroke="#FF6B35" stroke-width="2"/>
+    
+    <!-- Book spine -->
+    <rect x="16" y="12" width="4" height="32" fill="#FF6B35"/>
+    
+    <!-- Recipe lines -->
+    <g stroke="#E5E5E5" stroke-width="1">
+      <line x1="24" y1="20" x2="36" y2="20"/>
+      <line x1="24" y1="24" x2="32" y2="24"/>
+      <line x1="24" y1="28" x2="34" y2="28"/>
+      <line x1="24" y1="32" x2="30" y2="32"/>
+    </g>
+    
+    <!-- Recipe title -->
+    <rect x="24" y="16" width="12" height="2" fill="#FF6B35" opacity="0.7"/>
+    
+    <!-- Cooking pot -->
+    <g transform="translate(8, 32)">
+      <ellipse cx="8" cy="12" rx="6" ry="4" fill="#FF6B35" opacity="0.3"/>
+      <ellipse cx="8" cy="12" rx="6" ry="4" fill="none" stroke="#FF6B35" stroke-width="1.5"/>
+      <!-- Steam -->
+      <path d="M 4 8 Q 6 4 4 2" stroke="#FF6B35" stroke-width="1" fill="none" opacity="0.6"/>
+      <path d="M 8 8 Q 10 4 8 2" stroke="#FF6B35" stroke-width="1" fill="none" opacity="0.6"/>
+      <path d="M 12 8 Q 14 4 12 2" stroke="#FF6B35" stroke-width="1" fill="none" opacity="0.6"/>
+    </g>
+    
+    <!-- Lightbulb (suggestion) -->
+    <g transform="translate(44, 16)">
+      <circle cx="0" cy="0" r="6" fill="#FFD700" opacity="0.8"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+      <rect x="-1" y="4" width="2" height="4" fill="#8B4513"/>
+    </g>
+    
+    <!-- Ingredients -->
+    <g transform="translate(8, 8)">
+      <!-- Carrot -->
+      <ellipse cx="0" cy="0" rx="2" ry="4" fill="#FF8C42" transform="rotate(15)"/>
+      <ellipse cx="0" cy="-3" rx="1" ry="2" fill="#228B22" transform="rotate(15)"/>
+      
+      <!-- Tomato -->
+      <circle cx="8" cy="0" r="3" fill="#FF4444"/>
+      <ellipse cx="8" cy="-2" rx="1" ry="1.5" fill="#228B22"/>
+    </g>
+  </g>
+</svg>

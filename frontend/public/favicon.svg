@@ -1,0 +1,17 @@
+<!-- KitchenSathi Favicon - Simple pot icon -->
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#FF6B35"/>
+  
+  <!-- Pot icon -->
+  <g transform="translate(8, 8)">
+    <!-- Pot body -->
+    <ellipse cx="8" cy="10" rx="6" ry="4" fill="white"/>
+    <!-- Pot handle -->
+    <path d="M 12 6 Q 14 6 14 8 Q 14 10 12 10" stroke="white" stroke-width="1.5" fill="none"/>
+    <!-- Steam lines -->
+    <path d="M 5 4 Q 6 2 5 1" stroke="white" stroke-width="1" fill="none" opacity="0.8"/>
+    <path d="M 8 4 Q 9 2 8 1" stroke="white" stroke-width="1" fill="none" opacity="0.8"/>
+    <path d="M 11 4 Q 12 2 11 1" stroke="white" stroke-width="1" fill="none" opacity="0.8"/>
+  </g>
+</svg>

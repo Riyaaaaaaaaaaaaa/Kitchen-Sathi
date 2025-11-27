@@ -1,0 +1,46 @@
+================================================================================
+  IMPORTANT: CREATE .env FILE IN THIS DIRECTORY
+================================================================================
+
+STEP 1: Create the file
+------------------------
+1. Right-click in this folder (backend)
+2. Select "New" → "Text Document"
+3. Name it: .env
+4. Remove the .txt extension
+5. Click "Yes" when Windows warns you
+
+STEP 2: Open with Notepad
+--------------------------
+Right-click the .env file → Open with → Notepad
+
+STEP 3: Copy and paste this content:
+-------------------------------------
+
+MONGODB_URI=mongodb://localhost:27017/aajkyabanega
+JWT_SECRET=your-super-secret-jwt-key-change-in-production-123456789
+EDAMAM_APP_ID=1500584f
+EDAMAM_APP_KEY=721d0ae56f0fff7010e5ccbec75edeb6
+CLOUDINARY_CLOUD_NAME=dqwvlnsgj
+CLOUDINARY_API_KEY=447433452683274
+CLOUDINARY_API_SECRET=TnVtMtTlZgmrCRkNXBBRb9kKHGc
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_SECURE=false
+EMAIL_USER=kitchensathii@gmail.com
+EMAIL_PASSWORD=xceb cvkt wkbp twai
+EMAIL_FROM=KitchenSathi <kitchensathii@gmail.com>
+FRONTEND_URL=http://localhost:5173
+PORT=5000
+
+STEP 4: Save and restart backend
+---------------------------------
+1. Save the file (Ctrl+S)
+2. Stop backend (Ctrl+C in terminal)
+3. Run: npx tsx src/index.ts
+4. Look for: ✅ [EmailService] Initialized successfully
+
+================================================================================
+  THAT'S IT! Email verification will now work!
+================================================================================
+

@@ -1,0 +1,14 @@
+<!-- KitchenSathi Feature Icons - Modern, minimalist style -->
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Smart Alerts Icon -->
+  <g id="smart-alerts">
+    <!-- Bell icon -->
+    <path d="M32 8C24.268 8 18 14.268 18 22V28C18 32.418 20.582 35 25 35H39C43.418 35 46 32.418 46 28V22C46 14.268 39.732 8 32 8Z" fill="#FF6B35"/>
+    <path d="M32 8C24.268 8 18 14.268 18 22V28C18 32.418 20.582 35 25 35H39C43.418 35 46 32.418 46 28V22C46 14.268 39.732 8 32 8Z" fill="none" stroke="#FF6B35" stroke-width="2"/>
+    <!-- Bell clapper -->
+    <circle cx="32" cy="22" r="2" fill="#FFFFFF"/>
+    <!-- Notification dot -->
+    <circle cx="44" cy="20" r="6" fill="#FF4444"/>
+    <text x="44" y="24" text-anchor="middle" fill="white" font-size="8" font-weight="bold">!</text>
+  </g>
+</svg>

@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Toast animations */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+.animate-slide-out-right {
+  animation: slide-out-right 0.3s ease-in;
+}
+
+/* Modal animations */
+@keyframes scale-in {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-scale-in {
+  animation: scale-in 0.2s ease-out;
+}
+
+/* Print Styles */
+@media print {
+  /* Hide elements that shouldn't print */
+  .no-print,
+  header,
+  nav,
+  .toast-container,
+  button:not(.print-keep) {
+    display: none !important;
+  }
+
+  /* Reset page styles for printing */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Make modals print-friendly */
+  .fixed {
+    position: relative !important;
+  }
+
+  .z-\\[60\\],
+  .z-50 {
+    z-index: 0 !important;
+  }
+
+  /* Remove backgrounds and shadows */
+  .bg-black\\/70,
+  .bg-black\\/50 {
+    background: transparent !important;
+  }
+
+  .shadow-2xl,
+  .shadow-xl,
+  .shadow-lg {
+    box-shadow: none !important;
+  }
+
+  /* Optimize content for printing */
+  .recipe-content {
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Ensure readable text */
+  .text-white {
+    color: black !important;
+  }
+
+  .bg-orange-600,
+  .bg-orange-500,
+  .bg-gradient-to-r {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Show borders for structure */
+  .border-t {
+    border-top: 1px solid #ccc !important;
+  }
+
+  /* Adjust spacing for print */
+  .p-6 {
+    padding: 1rem !important;
+  }
+
+  /* Make sure ingredients and instructions are readable */
+  .bg-orange-50,
+  .bg-gray-50 {
+    background: white !important;
+    border: 1px solid #ddd !important;
+  }
+}
+

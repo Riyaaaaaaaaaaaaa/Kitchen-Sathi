@@ -1,0 +1,27 @@
+<!-- KitchenSathi Logo - Modern, friendly, kitchen-themed -->
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for logo -->
+  <circle cx="30" cy="30" r="25" fill="#FF6B35" opacity="0.1"/>
+  
+  <!-- Kitchen pot/pan icon -->
+  <g transform="translate(15, 15)">
+    <!-- Pot body -->
+    <ellipse cx="15" cy="20" rx="12" ry="8" fill="#FF6B35"/>
+    <!-- Pot handle -->
+    <path d="M 25 15 Q 30 15 30 20 Q 30 25 25 25" stroke="#FF6B35" stroke-width="2" fill="none"/>
+    <!-- Steam lines -->
+    <path d="M 10 8 Q 12 4 10 2" stroke="#FF6B35" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M 15 8 Q 17 4 15 2" stroke="#FF6B35" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M 20 8 Q 22 4 20 2" stroke="#FF6B35" stroke-width="1.5" fill="none" opacity="0.7"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="70" y="25" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="#1F2937">
+    KitchenSathi
+  </text>
+  
+  <!-- Tagline -->
+  <text x="70" y="42" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6B7280">
+    Your Kitchen Companion
+  </text>
+</svg>
