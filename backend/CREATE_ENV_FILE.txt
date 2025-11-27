@@ -17,19 +17,19 @@ Right-click the .env file → Open with → Notepad
 STEP 3: Copy and paste this content:
 -------------------------------------
 
-MONGODB_URI=mongodb://localhost:27017/aajkyabanega
-JWT_SECRET=your-super-secret-jwt-key-change-in-production-123456789
-EDAMAM_APP_ID=1500584f
-EDAMAM_APP_KEY=721d0ae56f0fff7010e5ccbec75edeb6
-CLOUDINARY_CLOUD_NAME=dqwvlnsgj
-CLOUDINARY_API_KEY=447433452683274
-CLOUDINARY_API_SECRET=TnVtMtTlZgmrCRkNXBBRb9kKHGc
+MONGODB_URI=mongodb://localhost:27017/kitchen-sathii
+JWT_SECRET=change-this-secret-key-in-production
+EDAMAM_APP_ID=YOUR_EDAMAM_APP_ID
+EDAMAM_APP_KEY=YOUR_EDAMAM_APP_KEY
+CLOUDINARY_CLOUD_NAME=YOUR_CLOUD_NAME
+CLOUDINARY_API_KEY=YOUR_CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET=YOUR_CLOUDINARY_API_SECRET
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_SECURE=false
-EMAIL_USER=kitchensathii@gmail.com
-EMAIL_PASSWORD=xceb cvkt wkbp twai
-EMAIL_FROM=KitchenSathi <kitchensathii@gmail.com>
+EMAIL_USER=YOUR_EMAIL
+EMAIL_PASSWORD=YOUR_EMAIL_APP_PASSWORD
+EMAIL_FROM=KitchenSathi <YOUR_EMAIL>
 FRONTEND_URL=http://localhost:5173
 PORT=5000
 
