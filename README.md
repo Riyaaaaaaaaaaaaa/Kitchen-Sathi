@@ -510,7 +510,6 @@ Contributions are welcome! Please follow these steps:
 **Developer**: Riya
 
 - Email: riyarajawat212@gmail.com
-- LinkedIn: 
 
 ---
 
